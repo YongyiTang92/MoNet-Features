@@ -38,7 +38,7 @@ def main():
     # case1 normal save and restore
     # define simple graphs
     with tf.Session() as sess:
-        saver = SaverRestore('./checkpoint/model.ckpt')
+        saver = SaverRestore('./Monet_model.ckpt')
         saver._setup_graph()
         saver._run_init(sess)
 
