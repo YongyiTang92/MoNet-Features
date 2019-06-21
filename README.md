@@ -6,7 +6,7 @@ Extracting motion information, specifically in the form of optical flow features
 We propose a motion hallucination network to imagine the optical flow features from the appearance features for video classification.
 For more details, please refer to our [paper](https://arxiv.org/abs/1905.11799).
 
-![image](https://github.com/YongyiTang92/MoNet-Features/master/imgs/motivation.jpg)
+![image](https://github.com/YongyiTang92/MoNet-Features/blob/master/imgs/motivation.jpg)
 
 ### Citation
 
