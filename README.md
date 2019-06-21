@@ -4,7 +4,18 @@ by Yongyi Tang, Lin Ma and Lianqiang Zhou. Accepted by IJCAI 2019.
 ### Introduction
 Extracting motion information, specifically in the form of optical flow features, is extremely computationally expensive.
 We propose a motion hallucination network to imagine the optical flow features from the appearance features for video classification.
-For more details, please refer to our paper.
+For more details, please refer to our [paper](https://arxiv.org/abs/1905.11799).
+
+![image](https://github.com/YongyiTang92/MoNet-Features/master/imgs/motivation.jpg)
+
+### Citation
+
+    @InProceedings{tang2019hallucinating,
+      author = {Yongyi Tang and Ma, Lin and Lianqiang Zhou},
+      title = {Hallucinating Optical Flow Features for Video Classification},
+      booktitle = {IJCAI},
+      year = {2019}
+    }
 
 ### Overview
 
@@ -14,7 +25,9 @@ This repository contains trained models and feature reported in the our paper on
 
 Run the example code using
 
-`$ python extract_monet_features.py`
+```
+$ python extract_monet_features.py
+```
 
 With default flags, this builds the I3D-MoNet model which takes a video segment as input, and produce corresponding hallucinated motion features.
 
@@ -26,7 +39,9 @@ We provide the I3D-rgb I3D-flow and the MoNet-flow features in the form of [tfre
 
 Run the example code of loading tfrecords using
 
-`$ python feature_reader.py`
+```
+$ python feature_reader.py
+```
 
 after modifing the file paths.
 
